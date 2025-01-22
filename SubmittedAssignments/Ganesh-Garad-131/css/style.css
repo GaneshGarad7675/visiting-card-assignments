@@ -1,0 +1,182 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.card-wrapper {
+    position: relative;
+    width: 88.9mm;
+    height: 50.8mm;
+    opacity: 0.9;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    box-shadow: 5mm 5mm 5mm black;
+    margin-bottom: 10mm;
+}
+.vl1{
+    border-left: 15mm solid red;
+    height: 30mm;
+    bottom: 0mm;
+    position: absolute;
+}
+.hl1{
+    border: 0.3mm solid #ccc;
+    bottom: 6mm;
+    width: 5mm;
+    position: absolute;
+}
+.hl2{
+    border: 0.3mm solid #ccc;
+    bottom: 12mm;
+    width: 5mm;
+    position: absolute;
+}
+.hl3{
+    border: 0.3mm solid #ccc;
+    bottom: 18mm;
+    width: 5mm;
+    position: absolute;
+}
+.hl4{
+    border: 0.3mm solid #ccc;
+    bottom: 24mm;
+    width: 5mm;
+    position: absolute;
+}
+.card-logo{
+    position: absolute;
+    top: 5mm;
+    left: 15mm;
+    font-size: 10pt;
+}
+.card-logo1{
+    position: absolute;
+    top: 9mm;
+    left: 15mm;
+    font-size: 7pt;
+}
+.name{
+    position: absolute;
+    top: 5mm;
+    right: 10mm;
+    font-size: 10pt;
+    color: red;
+}
+.name b{
+    color: black;
+}
+.post{
+    position: absolute;
+    top: 9mm;
+    right: 10mm;
+    font-size: 7pt;
+}
+.qr-code{
+    bottom: 3mm;
+    right: -60mm;
+    position: absolute;
+}
+.qr-img{
+    max-width: 10%;
+    height: auto;
+}
+.party-phone{
+    position: absolute;
+    top: 23mm;
+    left: 9mm;
+    font-size: 9pt;
+}
+.party-phone-number{
+    padding-left: 3.5mm;
+}
+.party-email{
+    position: absolute;
+    bottom: 15.5mm;
+    left: 9mm;
+    font-size: 9pt;
+}
+.party-email-address{
+    padding-left: 3.5mm;
+}
+.party-website{
+    position: absolute;
+    bottom: 9.5mm;
+    left: 9mm;
+    font-size: 9pt;
+}
+.party-website-link{
+    padding-left: 3.5mm;
+}
+.party-address{
+    position: absolute;
+    bottom: 3.5mm;
+    left: 9mm;
+    font-size: 9pt;
+}
+.party-address-text{
+    padding-left: 3.5mm;
+}
+.logo-img{
+    position: absolute;
+    top: 6mm;
+    left: -20mm;
+}
+.logo-img img{
+    max-width: 10%;
+}
+
+.border1{
+    border: 4mm solid red;
+    bottom: 0mm;
+    width: 100%;
+    position: absolute;
+}
+.border2{
+    border: 0.5mm solid black;
+    bottom: 9mm;
+    width: 100%;
+    position: absolute;
+}
+.border3{
+    border: 0.5mm solid red;
+    bottom: 27mm;
+    width: 25%;
+    position: absolute;
+}
+.border4{
+    border: 0.5mm solid red;
+    bottom: 27mm;
+    right: 0mm;
+    width: 25%;
+    position: absolute;
+}
+
+.card2-logo{
+    position: absolute;
+    bottom: 26mm;
+    left: 27mm;
+    font-size: 11.5pt;
+}
+.card2-logo1{
+    position: absolute;
+    bottom: 21mm;
+    left: 27mm;
+    font-size: 9pt;
+}
+.card2-logo-img{
+    position: absolute;
+    top: 10mm;
+    left: 40mm;
+}
+.card2-logo-img img{
+    width: 8mm;
+    height: 8mm;
+}
+.party-website-back{
+    position: absolute;
+    bottom: 9.5mm;
+    left: 25mm;
+    font-size: 9pt;
+}
+.party-website-link-back{
+    padding-left: 2mm;
+}
